@@ -1,0 +1,50 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "theme": "dark",
+  "defaultProvider": "antigravity",
+  "defaultModel": "gemini-3.8-flash",
+  "packages": [
+    "npm:pi-plan",
+    "npm:pi-mcp-adapter",
+    "npm:pi-subagents",
+    "npm:pi-antigravity",
+    "npm:pi-lens",
+    "npm:pi-background-tasks",
+    "npm:pi-worktree",
+    "npm:pi-simplify",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@pi-unipi/notify",
+    "npm:pi-footer"
+  ],
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 16384,
+    "keepRecentTokens": 20000,
+    "modelOverrides": {
+      "antigravity/gemini-3.8-flash": {
+        "reserveTokens": 60000
+      },
+      "antigravity/gemini-3-flash": {
+        "reserveTokens": 60000
+      },
+      "antigravity/gemini-2.5-flash": {
+        "reserveTokens": 60000
+      },
+      "antigravity/gemini-2.5-pro": {
+        "reserveTokens": 60000
+      },
+      "google/gemini-2.5-flash": {
+        "reserveTokens": 60000
+      },
+      "google/gemini-2.5-pro": {
+        "reserveTokens": 60000
+      },
+      "opencode-go/deepseek-v4.1-flash": {
+        "reserveTokens": 60000
+      },
+      "deepseek/deepseek-flash": {
+        "reserveTokens": 60000
+      }
+    }
+  }
+}

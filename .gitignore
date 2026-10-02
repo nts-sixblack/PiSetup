@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+
+# Backups & temp files
+*.bak
+*.bak.*
+*.tmp
+*.tmp.*
+
+# Node / Dependencies
+node_modules/
+npm-debug.log*
+
+# Sensitive credentials
+auth.json
+*.env
+*.key
